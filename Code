@@ -3,16 +3,16 @@
 
 class Block {
  constructor(Data) {
-•	 Timestamp is the timestamp of the time when the block is created.
-•	 Data is the valuable information which we want to store.
-•	 PrevBlockHash hash string of previous block
-•	 Hash hash of current block
+ 	 Timestamp is the timestamp of the time when the block is created.
+ 	 Data is the valuable information which we want to store.
+ 	 PrevBlockHash hash string of previous block
+ 	 Hash hash of current block
 this.Timestamp; //number
    this.Data = Data; //string
    this.PrevBlockHash; //string
    this.Hash; //string
  }
- ...
+ 
 }
 import sha256 from 'js-sha256';
 
