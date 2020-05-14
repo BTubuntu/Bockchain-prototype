@@ -1,4 +1,5 @@
-# Bockchain prototype
+// A Blockchain Basic Prototype
+
 
 class Block {
  constructor(Data) {
@@ -38,7 +39,7 @@ class Block {
  }
 }
 Les's create our first block of our blockchain -
-const Block1 = new Block('This is new data', 'PREVIOUS_BLOCK_HASH');
+const Block0 = new Block('This is new data', 'PREVIOUS_BLOCK_HASH');
 
 
  NODE0  NODE1  NODE2  NODE3
